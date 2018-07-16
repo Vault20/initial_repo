@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	line-height: 1.2;
+}
+
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+
+h1{
+	color: black;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	height: 40px;
+	background-color: black;
+	border: none; 
+	padding: 0 20px;
+	color: #fff;
+}
+
+header {
+	min-height: 70px;
+	padding-top: 30px;
+	border-bottom: solid black 3px solid;
+}
+
+
+header li{
+	list-style: initial;
+	display: inline;
+	padding: 0 15px 0 15px;
+	outline: none;
+}
+
+header a{
+	color: black;
+    text-decoration: none;
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+
+header a:hover{
+	font-weight: bolder;
+	color: black;
+	font-size: 1em;
+}
+
+.logo{
+    color: #fff;
+    float: left;
+}
+
+header nav{
+	float: right;
+	margin-top: .5px;
+	padding-top: 30px;
+}
+
+#showcase {
+	min-height: 500px;
+	background: url("../images/image1.jpg") no-repeat;
+	background-size: cover;
+	color: #fff;
+	margin:0;
+	text-align: center;
+	border-radius: 30px;
+}
+
+
+#showcase h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+#showcase p{
+	text-align: center;
+}
+
+
+#subscribe{
+	padding-bottom:30px;
+	color: #fff;
+	background-color: grey;
+}
+
+#subscribe h3{
+	float: left;
+	margin-right: 100px;
+}
+
+#subscribe form{
+	margin-top: 15px;
+}
+
+#subscribe input{
+	padding-bottom:10px;
+	height: 25px;
+	width: 250px;
+}
+
+#grids {
+	display: block;
+	margin-top: 20px;
+}
+
+.grid img {
+	width:150px;
+}
+
+.grid {
+	width: 30%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+   clear: both;
+   padding: 20px;
+   text-align: center;
+   color: black;
+   font-size: 0.5em;
+}
+
+
